@@ -1,0 +1,661 @@
+[
+  {
+    "id": "N004",
+    "source_id": "C425-I07",
+    "title": "中央近景人物與兩側小型反應人物",
+    "tags": [
+      "構圖",
+      "群像",
+      "正面",
+      "前景大後景小",
+      "短髮",
+      "遮眼瀏海",
+      "灰外套",
+      "喜劇反應",
+      "放射背景線"
+    ],
+    "visible_content": "中間大格以正面站立人物占據中央，灰外套、黑上衣與白髮分開；兩側人物縮小並有誇張動作，周圍散布放射狀短線。主要人物僅顯示到髖部附近。",
+    "how_to_use": "主次人物的尺寸、低細節小型反應人物，以及灰衣和實黑內衣的材料分工。",
+    "constraints": [
+      "不是完整全身比例參考；膝腳在畫格外。",
+      "背景的反應人物不是要逐一精緻化的肖像。",
+      "放射短線屬此格語境，不能當成所有室內背景。"
+    ],
+    "crop_box_ltrb": [
+      37,
+      343,
+      573,
+      740
+    ],
+    "crop_scope": "中間群像大格",
+    "source_has_visible_website_overlay": false,
+    "overlay_inside_crop": false,
+    "reference_role": "conditional_reference",
+    "parent_context": [
+      {
+        "source_id": "C425-I06",
+        "image_index": 6,
+        "file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p006.jpg",
+        "native_review_previously_recorded": false
+      },
+      {
+        "source_id": "C425-I07",
+        "image_index": 7,
+        "file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p007.jpg",
+        "native_review_previously_recorded": false
+      },
+      {
+        "source_id": "C425-I08",
+        "image_index": 8,
+        "file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p008.jpg",
+        "native_review_previously_recorded": false
+      }
+    ],
+    "provenance": "new_individual_native_page_review",
+    "original_page_file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p007.jpg",
+    "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-catalog\\native-excerpts\\N004.png",
+    "crop_visually_confirmed": true,
+    "can_condition": true,
+    "role": "conditional_native_excerpt",
+    "use": "主次人物的尺寸、低細節小型反應人物，以及灰衣和實黑內衣的材料分工。",
+    "native_excerpt_verification": {
+      "id": "N004",
+      "source_id": "C425-I07",
+      "box_ltrb": [
+        37,
+        343,
+        573,
+        740
+      ],
+      "dimensions": [
+        536,
+        397
+      ],
+      "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-catalog\\native-excerpts\\N004.png",
+      "source_sha256": "f0ded6526ada595f5ce01eb0d6248cd1b88d1e92e6b0ac56363f2a4650b3c2bf",
+      "sha256": "492af03eb8f3ecfae89eb2efa9be12c8651a522ad497803d49baa4c76e480ee8",
+      "native_pixel_equality": true,
+      "resampled": false
+    },
+    "chapter": 425,
+    "era": "fullbring_424_479",
+    "source_corpus": "chinese_expansion",
+    "period": "fullbring"
+  },
+  {
+    "id": "N005",
+    "source_id": "C425-I08",
+    "title": "低視角全身伸展與後方球場人物",
+    "tags": [
+      "鏡頭",
+      "低視角",
+      "仰視",
+      "全身",
+      "短髮",
+      "伸展動作",
+      "戶外",
+      "圍網",
+      "前景大後景小",
+      "實黑上衣",
+      "灰短褲"
+    ],
+    "visible_content": "右側大格中人物站立並橫拉手臂伸展，全身可見，頭部相對較小，長腿延伸至格底；黑上衣、灰短褲、白腿與鞋分區。後方有圍網、樹叢和較小人物，天空為灰網及白雲。",
+    "how_to_use": "低視角全身、雙臂交疊、人物與戶外背景的尺度，以及材質分區。",
+    "constraints": [
+      "這是特定伸展姿勢，不能直接套成持刀或普通垂手。",
+      "腳在格底的原有裁切與比例按來源保留。",
+      "灰網天空和衣褲灰面不可全部清成白底。"
+    ],
+    "crop_box_ltrb": [
+      235,
+      0,
+      612,
+      656
+    ],
+    "crop_scope": "右側縱向大格；原有格底鞋部裁切保留",
+    "source_has_visible_website_overlay": false,
+    "overlay_inside_crop": false,
+    "reference_role": "conditional_reference",
+    "parent_context": [
+      {
+        "source_id": "C425-I07",
+        "image_index": 7,
+        "file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p007.jpg",
+        "native_review_previously_recorded": false
+      },
+      {
+        "source_id": "C425-I08",
+        "image_index": 8,
+        "file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p008.jpg",
+        "native_review_previously_recorded": false
+      },
+      {
+        "source_id": "C425-I09",
+        "image_index": 9,
+        "file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p009.jpg",
+        "native_review_previously_recorded": false
+      }
+    ],
+    "provenance": "new_individual_native_page_review",
+    "original_page_file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p008.jpg",
+    "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-catalog\\native-excerpts\\N005.png",
+    "crop_visually_confirmed": true,
+    "can_condition": true,
+    "role": "conditional_native_excerpt",
+    "use": "低視角全身、雙臂交疊、人物與戶外背景的尺度，以及材質分區。",
+    "native_excerpt_verification": {
+      "id": "N005",
+      "source_id": "C425-I08",
+      "box_ltrb": [
+        235,
+        0,
+        612,
+        656
+      ],
+      "dimensions": [
+        377,
+        656
+      ],
+      "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-catalog\\native-excerpts\\N005.png",
+      "source_sha256": "991b866f5ce353f820a64740c0a875cafa08963a59e5c7ab8bee9c582571a00c",
+      "sha256": "e6b607c6e37657aa0177f7fed79659f109a8d82842905c56ba9cf51e89a486b1",
+      "native_pixel_equality": true,
+      "resampled": false
+    },
+    "chapter": 425,
+    "era": "fullbring_424_479",
+    "source_corpus": "chinese_expansion",
+    "period": "fullbring"
+  },
+  {
+    "id": "N006",
+    "source_id": "C425-I10",
+    "title": "長髮人物從窗邊探身揮手",
+    "tags": [
+      "頭髮",
+      "長髮",
+      "波浪長髮",
+      "灰髮",
+      "動作",
+      "揮手",
+      "窗邊",
+      "建築透視",
+      "仰視",
+      "喜悅",
+      "灰制服"
+    ],
+    "visible_content": "上方大格的長髮人物從窗邊向外探身，一手上舉張掌，另一手在下方扶住邊緣；大束彎曲長髮、灰制服與黑領結分開。窗框和建築線向畫外延伸，大語泡及放射線穿插其間。",
+    "how_to_use": "長髮與探身姿勢的連動、手和窗緣接觸，以及人物與窗框的透視關係。",
+    "constraints": [
+      "只借用畫法時，髮夾、制服和角色臉形仍屬此人物的內容條件。",
+      "下半身未完整入框，不補成全身。",
+      "不能把窗框線與速度線混作髮絲。"
+    ],
+    "crop_box_ltrb": [
+      44,
+      0,
+      612,
+      505
+    ],
+    "crop_scope": "上方探窗大格",
+    "source_has_visible_website_overlay": false,
+    "overlay_inside_crop": false,
+    "reference_role": "conditional_reference",
+    "parent_context": [
+      {
+        "source_id": "C425-I09",
+        "image_index": 9,
+        "file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p009.jpg",
+        "native_review_previously_recorded": false
+      },
+      {
+        "source_id": "C425-I10",
+        "image_index": 10,
+        "file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p010.jpg",
+        "native_review_previously_recorded": false
+      },
+      {
+        "source_id": "C425-I11",
+        "image_index": 11,
+        "file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p011.jpg",
+        "native_review_previously_recorded": false
+      }
+    ],
+    "provenance": "new_individual_native_page_review",
+    "original_page_file": "E:\\Codex\\2026-10-23\\new-chat-6\\work\\bleach-expansion\\chapters\\c425\\p010.jpg",
+    "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-catalog\\native-excerpts\\N006.png",
+    "crop_visually_confirmed": true,
+    "can_condition": true,
+    "role": "conditional_native_excerpt",
+    "use": "長髮與探身姿勢的連動、手和窗緣接觸，以及人物與窗框的透視關係。",
+    "native_excerpt_verification": {
+      "id": "N006",
+      "source_id": "C425-I10",
+      "box_ltrb": [
+        44,
+        0,
+        612,
+        505
+      ],
+      "dimensions": [
+        568,
+        505
+      ],
+      "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-catalog\\native-excerpts\\N006.png",
+      "source_sha256": "580ecf23f5c814a092d25f13ed06202cb6a76ef791843d7c7f141feeef9ebab7",
+      "sha256": "e3fb00e4cc7096daa1a1e0d32c06aad742b46b6d63dc188ba206b3d169889b20",
+      "native_pixel_equality": true,
+      "resampled": false
+    },
+    "chapter": 425,
+    "era": "fullbring_424_479",
+    "source_corpus": "chinese_expansion",
+    "period": "fullbring"
+  },
+  {
+    "id": "R03",
+    "source_id": "C431-I05",
+    "provenance": "current_40_crop_suitability_review",
+    "title": "尷尬汗滴與臉頰短線",
+    "tags": [
+      "comic_face",
+      "embarrassment"
+    ],
+    "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-suitability\\originals\\R03.png",
+    "role": "reserved_evaluation",
+    "can_condition": false,
+    "observation": "雙眼閉成尖曲線，臉頰短斜線、汗滴、張嘴和衣領黑蝴蝶結同時出現；語泡及格邊保留。",
+    "use": "尷尬喜劇表情比較題。",
+    "constraints": [
+      "第431話整章依目前規劃保留作驗證，這張不進入訓練候選。"
+    ],
+    "historical_label_not_used_as_current_truth": "尷尬汗滴與臉頰短線",
+    "current_review_json": {
+      "id": "R03",
+      "group": "comic_emotion",
+      "decision": "reserved_evaluation",
+      "observation": "雙眼閉成尖曲線，臉頰短斜線、汗滴、張嘴和衣領黑蝴蝶結同時出現；語泡及格邊保留。",
+      "use": "尷尬喜劇表情比較題。",
+      "condition": "第431話整章依目前規劃保留作驗證，這張不進入訓練候選。",
+      "caption": "Cropped manga comic expression of a woman with both eyes squeezed shut, small forehead sweat marks, short cheek strokes and an open mouth. A black bow at the collar, patterned clothing and an existing speech balloon remain in the original crop.",
+      "initial_decision": "reserved_evaluation",
+      "reference_id": "R03",
+      "source_id": "C431-I05",
+      "era_bucket": "fullbring_424_479",
+      "historical_label": "尷尬汗滴與臉頰短線",
+      "historical_function_tags": [
+        "embarrassment",
+        "comic_face"
+      ],
+      "historical_source_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-drawing-master\\assets\\2ceb70a879027be90e6c1ad48827b056723e585067f6f572718bb310f3b24509.png",
+      "original_file": "originals/R03.png",
+      "sha256": "2ceb70a879027be90e6c1ad48827b056723e585067f6f572718bb310f3b24509",
+      "native_dimensions": [
+        257,
+        205
+      ],
+      "actually_viewed_native_this_turn": true,
+      "view_method": "Each original separately displayed at original detail, not a contact-sheet review.",
+      "reviewed_at_utc": "2026-10-24T13:26:18.731460+00:00",
+      "visible_website_watermark_observed": false,
+      "visual_suitability_review_is_not_model_training_validation": true,
+      "parent_sequence_context_rechecked_this_turn": false,
+      "source_raster_not_enhanced": true,
+      "training_model_selected": false
+    },
+    "parent_context_rechecked_in_this_build": false,
+    "candidate_status_is_not_generation_fidelity_validation": true,
+    "chapter": 431,
+    "era": "fullbring_424_479",
+    "source_corpus": "chinese_initial",
+    "period": "fullbring"
+  },
+  {
+    "id": "R05",
+    "source_id": "C426-I11",
+    "provenance": "current_40_crop_suitability_review",
+    "title": "威嚇表情的眼部暗帶",
+    "tags": [
+      "eye_shadow",
+      "threat"
+    ],
+    "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-suitability\\originals\\R05.png",
+    "role": "conditioned_candidate",
+    "can_condition": true,
+    "observation": "帽簷與頭髮下方形成跨眼暗帶，窄小瞳孔、大張口內密線、頸影和後方直線層很集中。",
+    "use": "威嚇式誇張表情與暗帶位置。",
+    "constraints": [
+      "帽子、鏡片和這個角色的表情共同限定畫面；不把眼部暗帶當成普通照明或固定眼妝。"
+    ],
+    "historical_label_not_used_as_current_truth": "威嚇表情的眼部暗帶",
+    "current_review_json": {
+      "id": "R05",
+      "group": "comic_emotion",
+      "decision": "conditioned_candidate",
+      "observation": "帽簷與頭髮下方形成跨眼暗帶，窄小瞳孔、大張口內密線、頸影和後方直線層很集中。",
+      "use": "威嚇式誇張表情與暗帶位置。",
+      "condition": "帽子、鏡片和這個角色的表情共同限定畫面；不把眼部暗帶當成普通照明或固定眼妝。",
+      "caption": "Manga woman in a cap with goggles, dark hair, a strong shadow band across the eyes and a large open mouth containing dense strokes and white shapes. Hatching is localized at the neck, with vertical lines behind the figure and an existing speech balloon.",
+      "initial_decision": "conditioned_candidate",
+      "reference_id": "R05",
+      "source_id": "C426-I11",
+      "era_bucket": "fullbring_424_479",
+      "historical_label": "威嚇表情的眼部暗帶",
+      "historical_function_tags": [
+        "threat",
+        "eye_shadow"
+      ],
+      "historical_source_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-drawing-master\\assets\\92639bed8db291a9e775107aeeef0804ca696b5aa7637caba0db45de2f85b354.png",
+      "original_file": "originals/R05.png",
+      "sha256": "92639bed8db291a9e775107aeeef0804ca696b5aa7637caba0db45de2f85b354",
+      "native_dimensions": [
+        275,
+        420
+      ],
+      "actually_viewed_native_this_turn": true,
+      "view_method": "Each original separately displayed at original detail, not a contact-sheet review.",
+      "reviewed_at_utc": "2026-10-24T13:26:18.731460+00:00",
+      "visible_website_watermark_observed": false,
+      "visual_suitability_review_is_not_model_training_validation": true,
+      "parent_sequence_context_rechecked_this_turn": false,
+      "source_raster_not_enhanced": true,
+      "training_model_selected": false
+    },
+    "parent_context_rechecked_in_this_build": false,
+    "candidate_status_is_not_generation_fidelity_validation": true,
+    "chapter": 426,
+    "era": "fullbring_424_479",
+    "source_corpus": "chinese_initial",
+    "period": "fullbring"
+  },
+  {
+    "id": "R06",
+    "source_id": "C426-I16",
+    "provenance": "current_40_crop_suitability_review",
+    "title": "溺愛表情與情緒背景",
+    "tags": [
+      "affection",
+      "comic_face"
+    ],
+    "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-suitability\\originals\\R06.png",
+    "role": "conditioned_candidate",
+    "can_condition": true,
+    "observation": "人物前傾伸雙手，表情轉柔；衣上斑點、身側密線、後方交叉亮格與語泡內心形各有獨立位置。",
+    "use": "溺愛／親暱喜劇反應、手勢及情緒背景。",
+    "constraints": [
+      "衣物花紋不是皮膚紋理；交叉亮格與心形只保留在這種有依據的語境。"
+    ],
+    "historical_label_not_used_as_current_truth": "溺愛表情與情緒背景",
+    "current_review_json": {
+      "id": "R06",
+      "group": "comic_emotion",
+      "decision": "conditioned_candidate",
+      "observation": "人物前傾伸雙手，表情轉柔；衣上斑點、身側密線、後方交叉亮格與語泡內心形各有獨立位置。",
+      "use": "溺愛／親暱喜劇反應、手勢及情緒背景。",
+      "condition": "衣物花紋不是皮膚紋理；交叉亮格與心形只保留在這種有依據的語境。",
+      "caption": "Manga woman leaning forward with both hands extended and a soft smiling expression. Her patterned shirt, localized dark torso and neck hatching, bright crisscross background and an existing speech balloon with a heart are preserved as distinct elements.",
+      "initial_decision": "conditioned_candidate",
+      "reference_id": "R06",
+      "source_id": "C426-I16",
+      "era_bucket": "fullbring_424_479",
+      "historical_label": "溺愛表情與情緒背景",
+      "historical_function_tags": [
+        "affection",
+        "comic_face"
+      ],
+      "historical_source_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-drawing-master\\assets\\8c4dddc38349497f516d5b7eb68720122eeebd3b87ce114257ced73184768249.png",
+      "original_file": "originals/R06.png",
+      "sha256": "8c4dddc38349497f516d5b7eb68720122eeebd3b87ce114257ced73184768249",
+      "native_dimensions": [
+        275,
+        540
+      ],
+      "actually_viewed_native_this_turn": true,
+      "view_method": "Each original separately displayed at original detail, not a contact-sheet review.",
+      "reviewed_at_utc": "2026-10-24T13:26:18.731460+00:00",
+      "visible_website_watermark_observed": false,
+      "visual_suitability_review_is_not_model_training_validation": true,
+      "parent_sequence_context_rechecked_this_turn": false,
+      "source_raster_not_enhanced": true,
+      "training_model_selected": false
+    },
+    "parent_context_rechecked_in_this_build": false,
+    "candidate_status_is_not_generation_fidelity_validation": true,
+    "chapter": 426,
+    "era": "fullbring_424_479",
+    "source_corpus": "chinese_initial",
+    "period": "fullbring"
+  },
+  {
+    "id": "R08",
+    "source_id": "C436-I19",
+    "provenance": "current_40_crop_suitability_review",
+    "title": "回憶畫格的水平線層",
+    "tags": [
+      "flashback",
+      "screen_lines"
+    ],
+    "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-suitability\\originals\\R08.png",
+    "role": "reserved_evaluation",
+    "can_condition": false,
+    "observation": "眼睛被黑髮蓋住，水平線層橫跨臉、頸與背景；衣物另有點狀花紋。",
+    "use": "回憶畫格的線層與髮遮眼比較題。",
+    "constraints": [
+      "第436話依目前規劃保留作驗證。水平線不是要降噪去除的壓縮條紋。"
+    ],
+    "historical_label_not_used_as_current_truth": "回憶畫格的水平線層",
+    "current_review_json": {
+      "id": "R08",
+      "group": "flashback_presentation",
+      "decision": "reserved_evaluation",
+      "observation": "眼睛被黑髮蓋住，水平線層橫跨臉、頸與背景；衣物另有點狀花紋。",
+      "use": "回憶畫格的線層與髮遮眼比較題。",
+      "condition": "第436話依目前規劃保留作驗證。水平線不是要降噪去除的壓縮條紋。",
+      "caption": "Manga cropped head and neck with black shaggy hair covering the eyes, a small closed mouth and patterned clothing. A horizontal line layer crosses both figure and background as part of the original presentation.",
+      "initial_decision": "reserved_evaluation",
+      "reference_id": "R08",
+      "source_id": "C436-I19",
+      "era_bucket": "fullbring_424_479",
+      "historical_label": "回憶畫格的水平線層",
+      "historical_function_tags": [
+        "flashback",
+        "screen_lines"
+      ],
+      "historical_source_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-drawing-master\\assets\\5023a4ebd5aa6f0824e78a610b0e39a5a6d412bbfd622e63314e8463ebfc0801.png",
+      "original_file": "originals/R08.png",
+      "sha256": "5023a4ebd5aa6f0824e78a610b0e39a5a6d412bbfd622e63314e8463ebfc0801",
+      "native_dimensions": [
+        187,
+        190
+      ],
+      "actually_viewed_native_this_turn": true,
+      "view_method": "Each original separately displayed at original detail, not a contact-sheet review.",
+      "reviewed_at_utc": "2026-10-24T13:26:18.731460+00:00",
+      "visible_website_watermark_observed": false,
+      "visual_suitability_review_is_not_model_training_validation": true,
+      "parent_sequence_context_rechecked_this_turn": false,
+      "source_raster_not_enhanced": true,
+      "training_model_selected": false
+    },
+    "parent_context_rechecked_in_this_build": false,
+    "candidate_status_is_not_generation_fidelity_validation": true,
+    "chapter": 436,
+    "era": "fullbring_424_479",
+    "source_corpus": "chinese_initial",
+    "period": "fullbring"
+  },
+  {
+    "id": "R16",
+    "source_id": "C450-I09",
+    "provenance": "current_40_crop_suitability_review",
+    "title": "吃東西的開心淚水，與悲傷淚水不能混用",
+    "tags": [
+      "comic_face",
+      "food_joy_tears"
+    ],
+    "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-suitability\\originals\\R16.png",
+    "role": "conditioned_candidate",
+    "can_condition": true,
+    "observation": "大眼白色高光、下眼瞼淚團、臉頰斜線與汗滴；下方食品遮住部分嘴部。",
+    "use": "吃東西時感動流淚的條件參考。",
+    "constraints": [
+      "淚團不能自動轉成悲傷。食品遮擋保留；不添加來源沒有的洞、碎屑或坑紋。"
+    ],
+    "historical_label_not_used_as_current_truth": "吃東西的開心淚水，與悲傷淚水不能混用",
+    "current_review_json": {
+      "id": "R16",
+      "group": "comic_emotion",
+      "decision": "conditioned_candidate",
+      "observation": "大眼白色高光、下眼瞼淚團、臉頰斜線與汗滴；下方食品遮住部分嘴部。",
+      "use": "吃東西時感動流淚的條件參考。",
+      "condition": "淚團不能自動轉成悲傷。食品遮擋保留；不添加來源沒有的洞、碎屑或坑紋。",
+      "caption": "Manga face crop with large highlighted eyes, white tear masses along the lower lids, short cheek hatching and scattered sweat marks. A pale irregular food shape obscures part of the mouth at the lower edge; light hair borders the face.",
+      "initial_decision": "conditioned_candidate",
+      "reference_id": "R16",
+      "source_id": "C450-I09",
+      "era_bucket": "fullbring_424_479",
+      "historical_label": "吃東西的開心淚水，與悲傷淚水不能混用",
+      "historical_function_tags": [
+        "food_joy_tears",
+        "comic_face"
+      ],
+      "historical_source_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-drawing-master\\assets\\2f01cdc83a6756f3bd965d8e636da8fed462caeb9fe8376f8c8eee00622728b9.png",
+      "original_file": "originals/R16.png",
+      "sha256": "2f01cdc83a6756f3bd965d8e636da8fed462caeb9fe8376f8c8eee00622728b9",
+      "native_dimensions": [
+        235,
+        235
+      ],
+      "actually_viewed_native_this_turn": true,
+      "view_method": "Each original separately displayed at original detail, not a contact-sheet review.",
+      "reviewed_at_utc": "2026-10-24T13:26:18.731460+00:00",
+      "visible_website_watermark_observed": false,
+      "visual_suitability_review_is_not_model_training_validation": true,
+      "parent_sequence_context_rechecked_this_turn": false,
+      "source_raster_not_enhanced": true,
+      "training_model_selected": false
+    },
+    "parent_context_rechecked_in_this_build": false,
+    "candidate_status_is_not_generation_fidelity_validation": true,
+    "chapter": 450,
+    "era": "fullbring_424_479",
+    "source_corpus": "chinese_expansion",
+    "period": "fullbring"
+  },
+  {
+    "id": "R17",
+    "source_id": "C434-I14",
+    "provenance": "current_40_crop_suitability_review",
+    "title": "能力心形與移動擬聲；不是已證實的黑鴉",
+    "tags": [
+      "ability_symbol",
+      "not_confirmed_crow"
+    ],
+    "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-suitability\\originals\\R17.png",
+    "role": "diagnostic_only",
+    "can_condition": false,
+    "observation": "狹長片段中有黑心形、彎曲短軌跡、重複擬聲字和人物衣領／身體殘片。",
+    "use": "能力軌跡與擬聲的診斷參考。",
+    "constraints": [
+      "這張不能證明『無語黑鴉』；不放入初步一般人物訓練候選，保留原圖與不確定性。"
+    ],
+    "historical_label_not_used_as_current_truth": "能力心形與移動擬聲；不是已證實的黑鴉",
+    "current_review_json": {
+      "id": "R17",
+      "group": "symbol_or_special_presentation",
+      "decision": "diagnostic_only",
+      "observation": "狹長片段中有黑心形、彎曲短軌跡、重複擬聲字和人物衣領／身體殘片。",
+      "use": "能力軌跡與擬聲的診斷參考。",
+      "condition": "這張不能證明『無語黑鴉』；不放入初步一般人物訓練候選，保留原圖與不確定性。",
+      "caption": "Narrow manga graphic excerpt containing a black heart shape, a trail of short curved marks and repeated sound-effect lettering beside cropped clothing and body fragments.",
+      "initial_decision": "diagnostic_only",
+      "reference_id": "R17",
+      "source_id": "C434-I14",
+      "era_bucket": "fullbring_424_479",
+      "historical_label": "能力心形與移動擬聲；不是已證實的黑鴉",
+      "historical_function_tags": [
+        "ability_symbol",
+        "not_confirmed_crow"
+      ],
+      "historical_source_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-drawing-master\\assets\\5274689562a63867aacaf9f4ab89db6f19425f1f906965d891604a90179c4c8b.png",
+      "original_file": "originals/R17.png",
+      "sha256": "5274689562a63867aacaf9f4ab89db6f19425f1f906965d891604a90179c4c8b",
+      "native_dimensions": [
+        335,
+        110
+      ],
+      "actually_viewed_native_this_turn": true,
+      "view_method": "Each original separately displayed at original detail, not a contact-sheet review.",
+      "reviewed_at_utc": "2026-10-24T13:26:18.731460+00:00",
+      "visible_website_watermark_observed": false,
+      "visual_suitability_review_is_not_model_training_validation": true,
+      "parent_sequence_context_rechecked_this_turn": false,
+      "source_raster_not_enhanced": true,
+      "training_model_selected": false
+    },
+    "parent_context_rechecked_in_this_build": false,
+    "candidate_status_is_not_generation_fidelity_validation": true,
+    "chapter": 434,
+    "era": "fullbring_424_479",
+    "source_corpus": "chinese_expansion",
+    "period": "fullbring"
+  },
+  {
+    "id": "R18",
+    "source_id": "C448-I16",
+    "provenance": "current_40_crop_suitability_review",
+    "title": "能力場景中的階梯狀語泡邊，不應平滑化",
+    "tags": [
+      "ability_balloon",
+      "stepped_border"
+    ],
+    "file": "E:\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-reference-suitability\\originals\\R18.png",
+    "role": "diagnostic_only",
+    "can_condition": false,
+    "observation": "灰網點底上只有兩個相接的階梯狀白語泡及直排文字，沒有完整人物。",
+    "use": "特殊能力場景的像素／階梯邊界。",
+    "constraints": [
+      "階梯邊不是壓縮破圖，不能平滑化；這張只作圖像語法參考，不進入初步一般人物候選。"
+    ],
+    "historical_label_not_used_as_current_truth": "能力場景中的階梯狀語泡邊，不應平滑化",
+    "current_review_json": {
+      "id": "R18",
+      "group": "symbol_or_special_presentation",
+      "decision": "diagnostic_only",
+      "observation": "灰網點底上只有兩個相接的階梯狀白語泡及直排文字，沒有完整人物。",
+      "use": "特殊能力場景的像素／階梯邊界。",
+      "condition": "階梯邊不是壓縮破圖，不能平滑化；這張只作圖像語法參考，不進入初步一般人物候選。",
+      "caption": "Two white stepped-border speech balloons containing vertical Chinese text overlap against a flat gray halftone field. No complete character is visible in this manga excerpt.",
+      "initial_decision": "diagnostic_only",
+      "reference_id": "R18",
+      "source_id": "C448-I16",
+      "era_bucket": "fullbring_424_479",
+      "historical_label": "能力場景中的階梯狀語泡邊，不應平滑化",
+      "historical_function_tags": [
+        "ability_balloon",
+        "stepped_border"
+      ],
+      "historical_source_file": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-23\\new-chat-6\\outputs\\bleach-drawing-master\\assets\\0ef0de218f0f424399fcfb46540c9f018cf58dde3e0b7a995b890c5a8634382a.png",
+      "original_file": "originals/R18.png",
+      "sha256": "0ef0de218f0f424399fcfb46540c9f018cf58dde3e0b7a995b890c5a8634382a",
+      "native_dimensions": [
+        160,
+        205
+      ],
+      "actually_viewed_native_this_turn": true,
+      "view_method": "Each original separately displayed at original detail, not a contact-sheet review.",
+      "reviewed_at_utc": "2026-10-24T13:26:18.731460+00:00",
+      "visible_website_watermark_observed": false,
+      "visual_suitability_review_is_not_model_training_validation": true,
+      "parent_sequence_context_rechecked_this_turn": false,
+      "source_raster_not_enhanced": true,
+      "training_model_selected": false
+    },
+    "parent_context_rechecked_in_this_build": false,
+    "candidate_status_is_not_generation_fidelity_validation": true,
+    "chapter": 448,
+    "era": "fullbring_424_479",
+    "source_corpus": "chinese_expansion",
+    "period": "fullbring"
+  }
+]

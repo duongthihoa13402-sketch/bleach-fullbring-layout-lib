@@ -1,0 +1,229 @@
+{
+  "version": "v3-verified-1075pages",
+  "corpus": {
+    "dir": "chinese_expansion",
+    "chapters": 50,
+    "pages": 1075,
+    "story_pages_with_panels": 1012,
+    "annotated_panels": 4276,
+    "page_size": [612, 960],
+    "ratio": 0.6375,
+    "corrupted_source_pages": [
+      "c439/p001-p002 (misplaced c433 title pages)",
+      "c441/p006-p019 (misplaced c440 second half and vol.50 extras)"
+    ]
+  },
+  "canvas": {
+    "margin": {"left": 0.055, "right": 0.055, "top": 0.02, "bottom": 0.015},
+    "gutter": {"horizontal_frac_of_height": 0.023, "vertical_frac_of_width": 0.015},
+    "big_panel_min_area": 0.25,
+    "big_panel_position_distribution": {
+      "top": "29.8% (55% of pages that have a dominant big panel - used for action openers, establishing shots, confrontation pressure)",
+      "bottom": "12.9% (24% of dominant-panel pages - used for reveals, cliffhangers, emotional beats)",
+      "middle": "12.0% (21% of dominant-panel pages - used for 2-1-2 two-shot centerpiece)",
+      "none": "35.8% (even/progressive rhythm)",
+      "full": "5.3%"
+    }
+  },
+  "scene_rules": [
+    {"scene": "日常对话", "pages": 138, "avg_panels": 5.2, "recommended_n": [4, 6], "tilt_rate": 0.167, "preferred_layouts": ["L14 (1-2-2 / 2-1-2)", "L8 (1-2-1)", "L9 (2-2-2)", "L15 (1-1-2)"]},
+    {"scene": "情报解释", "pages": 120, "avg_panels": 5.0, "recommended_n": [4, 6], "tilt_rate": 0.283, "preferred_layouts": ["L15 (1-1-2 / 2-1-1)", "L8 (1-2-1)", "L17 (1-2-1-1)", "L16 (1-2-3)"]},
+    {"scene": "对峙", "pages": 106, "avg_panels": 4.8, "recommended_n": [3, 5], "tilt_rate": 0.377, "preferred_layouts": ["L14 (1-2-2)", "L8 (1-2-1)", "L4 (1-2)", "L6 (1-1-1)", "L18 (1-3)"]},
+    {"scene": "战斗", "pages": 143, "avg_panels": 4.2, "recommended_n": [3, 5], "tilt_rate": 0.881, "preferred_layouts": ["L13 + L4 (1-2)", "L13 + L3 (1-1)", "L13 + L6 (1-1-1)", "L13 + L18 (1-3)", "L13 + L14 (1-2-2)"]},
+    {"scene": "受击爆发", "pages": 62, "avg_panels": 4.0, "recommended_n": [2, 4], "tilt_rate": 0.806, "preferred_layouts": ["L13 + L4 (1-2)", "L13 + L3 (1-1)", "L10 (COL)"]},
+    {"scene": "揭晓", "pages": 111, "avg_panels": 3.7, "recommended_n": [1, 4], "tilt_rate": 0.396, "preferred_layouts": ["L1 (满版/跨页)", "L5 (2-1)", "L15 (2-1-1)", "L4 (1-2)"]},
+    {"scene": "情绪顶点", "pages": 70, "avg_panels": 4.7, "recommended_n": [3, 5], "tilt_rate": 0.429, "preferred_layouts": ["L7 (1-1-1-1)", "L17 (1-2-1-1)", "L18 (1-3-1)"]},
+    {"scene": "转场", "pages": 78, "avg_panels": 4.5, "recommended_n": [2, 5], "tilt_rate": 0.256, "preferred_layouts": ["L8 (1-2-1)", "L7 (1-1-1-1)", "L10 (COL)", "L3 (1-1)"]},
+    {"scene": "章首", "pages": 85, "avg_panels": 3.3, "recommended_n": [1, 4], "tilt_rate": 0.376, "preferred_layouts": ["L2 (带标题条页)", "L1 (独立标题扉页)", "L6 (1-1-1)"]},
+    {"scene": "话末", "pages": 51, "avg_panels": 2.5, "recommended_n": [1, 3], "tilt_rate": 0.235, "preferred_layouts": ["L1 (满版/跨页)", "L5 (2-1)", "L3 (1-1)"]}
+  ],
+  "layouts": [
+    {
+      "id": "L1", "name": "满版 / 跨页半幅", "panels": 1, "row_struct": "1", "pages_count": 107, "tilt_rate": 0.05,
+      "when": "话末悬念、角色登场、必杀命中、连载正式标题扉页（含双联跨页的左/右半幅）",
+      "slots": [{"slot": "P1(整页)", "tags": "T2 远景全身(20%) / T10 动作大招(15%) / T6 面部特写(14%) / T15 标题海报(12%) / T12 剪影(10%)"}],
+      "examples": ["c427/p005.jpg", "c473/p021.jpg", "c461/p009.jpg"]
+    },
+    {
+      "id": "L2", "name": "章首标题带页", "panels": "3-5", "row_struct": "1-1-1 / 2-1-1 + 标题带", "pages_count": 27, "tilt_rate": 0.35,
+      "when": "每话第一页正片（单行本底栏标题）或话中第 4–9 页转场标题页",
+      "slots": [
+        {"slot": "P1", "tags": "T1/T2 建立或远景 / T12 剪影"},
+        {"slot": "P2-P3", "tags": "T3/T4 出场对话 + T7/T13 细节钩子"},
+        {"slot": "底格", "tags": "T6 特写 / T10 动作起手 + 5% 白底标题带"}
+      ],
+      "examples": ["c425/p001.jpg", "c430/p001.jpg", "c440/p001.jpg"]
+    },
+    {
+      "id": "L3", "name": "上下两段 / 对半双格", "panels": 2, "row_struct": "1-1 (46页) / 2 (13页)", "pages_count": 59, "tilt_rate": 0.50,
+      "when": "一击必杀（起手→命中）、转场（空镜→人物）、情绪重击（特写→黑底）、双人并立（左右通高）",
+      "slots": [
+        {"slot": "P1(上格 45-55%)", "tags": "T10 动作(30%) / T2 全身(11%) / T3 双人(11%) / T1 建立(9%)"},
+        {"slot": "P2(下格 45-55%)", "tags": "T6 面部特写(28%) / T11 冲击效果(13%) / T7 眼部局部(13%) / T13 惊愕反应(11%)"}
+      ],
+      "examples": ["c427/p019.jpg", "c443/p009.jpg", "c476/p013.jpg"]
+    },
+    {
+      "id": "L4", "name": "上大下双", "panels": 3, "row_struct": "1-2", "pages_count": 31, "tilt_rate": 0.61,
+      "when": "受击爆发、揭晓、对峙：先给占半页的动作或双人场面，底下两格给双方反应",
+      "slots": [
+        {"slot": "P1(上大格 52-68%)", "tags": "T3 双人对峙(19%) / T11 冲击爆炸(16%) / T6 大特写(16%) / T10 动作(13%)"},
+        {"slot": "P2(下先读格)", "tags": "T7 眼/手局部(26%) / T6 特写(23%) / T4 说话(16%)"},
+        {"slot": "P3(下后读格)", "tags": "T6 面部特写(26%) / T4 说话(16%) / T13 惊讶反应(13%)"}
+      ],
+      "examples": ["c428/p003.jpg", "c432/p019.jpg", "c441/p008.jpg"]
+    },
+    {
+      "id": "L5", "name": "上双下大", "panels": 3, "row_struct": "2-1", "pages_count": 49, "tilt_rate": 0.38,
+      "when": "反转揭晓、话末顿点：上面两小格问答或动作铺垫，底部大格抛出重磅画面",
+      "slots": [
+        {"slot": "P1(上先读格)", "tags": "T4 说话者(24%) / T5 听者近景(18%) / T7 局部(15%)"},
+        {"slot": "P2(上后读格)", "tags": "T5 听者反应(22%) / T6 特写(18%) / T13 惊讶(14%)"},
+        {"slot": "P3(下大格 52-68%)", "tags": "T6 面部大特写(32%) / T10 大动作(22%) / T2 全身登场(16%)"}
+      ],
+      "examples": ["c446/p018.jpg", "c455/p014.jpg"]
+    },
+    {
+      "id": "L6", "name": "三段横条", "panels": 3, "row_struct": "1-1-1", "pages_count": 75, "tilt_rate": 0.32,
+      "when": "战斗三连拍、章首缓入、情绪递进（全宽银幕推镜）",
+      "slots": [
+        {"slot": "P1(上横带)", "tags": "T6 特写(15%) / T8 物件(12%) / T10 动作(11%) / T4 说话(9%)"},
+        {"slot": "P2(中横带)", "tags": "T6 特写(25%) / T3 双人(15%) / T7 眼部横条(11%)"},
+        {"slot": "P3(下横带)", "tags": "T6 特写(21%) / T7 局部(17%) / T3 双人(13%) / T10 动作(11%)"}
+      ],
+      "examples": ["c425/p002.jpg", "c425/p005.jpg", "c471/p013.jpg"]
+    },
+    {
+      "id": "L7", "name": "四段横条", "panels": 4, "row_struct": "1-1-1-1", "pages_count": 35, "tilt_rate": 0.20,
+      "when": "慢镜头逼近、心理压迫、一问一答回合制",
+      "slots": [
+        {"slot": "P1(顶带)", "tags": "T6 特写(20%) / T4 说话(17%) / T14 旁白条(11%)"},
+        {"slot": "P2(二带)", "tags": "T6 特写(20%) / T7 眼部(14%) / T5 近景(11%)"},
+        {"slot": "P3(三带)", "tags": "T6 特写(26%) / T8 物件(11%) / T7 局部(11%)"},
+        {"slot": "P4(底带)", "tags": "T7 局部(23%) / T6 特写(20%) / T14 黑底文字条(17%) / T9 空镜(14%)"}
+      ],
+      "examples": ["c425/p016.jpg", "c425/p017.jpg", "c469/p008.jpg"]
+    },
+    {
+      "id": "L8", "name": "三明治 1-2-1", "panels": 4, "row_struct": "1-2-1", "pages_count": 49, "tilt_rate": 0.47,
+      "when": "标准 4 格攻防或对话页：建立 → 交锋反打 → 收束",
+      "slots": [
+        {"slot": "P1(上整格)", "tags": "T3 双人(20%) / T6 特写(20%) / T1 建立(10%)"},
+        {"slot": "P2(中先读)", "tags": "T6 特写(29%) / T7 局部(16%) / T4 说话(12%)"},
+        {"slot": "P3(中后读)", "tags": "T3 双人(16%) / T4 说话(14%) / T5 听者(12%)"},
+        {"slot": "P4(下整格)", "tags": "T7 眼/手局部(24%) / T6 特写(16%) / T9 空镜(10%)"}
+      ],
+      "examples": ["c425/p003.jpg", "c428/p010.jpg", "c432/p001.jpg"]
+    },
+    {
+      "id": "L9", "name": "对称六格 2-2-2", "panels": 6, "row_struct": "2-2-2", "pages_count": 22, "tilt_rate": 0.36,
+      "when": "三人以上轮流对话、快节奏多回合问答",
+      "slots": [
+        {"slot": "P1-P2(上带)", "tags": "T3 双人(23-32%) / T4 说话(23%) / T5 听者(18%)"},
+        {"slot": "P3-P4(中带)", "tags": "T6 特写(23%) + T4 说话(36%) / T7 局部(18%)"},
+        {"slot": "P5-P6(下带)", "tags": "T7 局部(32%) + T6 特写收束(27%)"}
+      ],
+      "examples": ["c429/p007.jpg", "c430/p012.jpg", "c447/p014.jpg"]
+    },
+    {
+      "id": "L10", "name": "竖分栏（T 型通高长栏）", "panels": "3-4", "row_struct": "COL(3-4格)", "pages_count": 34, "tilt_rate": 0.45,
+      "when": "全身站姿亮相、竖排能力宣告、纵向斩击、贴脸半面特写",
+      "slots": [
+        {"slot": "通高长栏(左或右)", "tags": "T2 远景全身 / T6 纵向半脸大特写 / T12 背影 / T10 纵向斩击"},
+        {"slot": "短栏 1-3(上→下)", "tags": "T7(眼/脚) → T4/T5(说话/反应) → T6(面部收束)"}
+      ],
+      "examples": ["c425/p008.jpg", "c439/p012.jpg", "c443/p008.jpg", "c443/p012.jpg"]
+    },
+    {
+      "id": "L11", "name": "窄条带插件式", "panels": "3-5", "row_struct": "含 8-15% 高横条", "pages_count": 200, "tilt_rate": 0.30,
+      "when": "凝视停顿、时间跳跃、脚步/握刀微动作（常作为插件行嵌入 L8/L14）",
+      "slots": [
+        {"slot": "窄条带槽", "tags": "T7 眼部/手指局部(55%) / T14 黑底单句(20%) / T8 物件(15%) / T9 窄空镜(10%)"}
+      ],
+      "examples": ["c429/p017.jpg", "c443/p019.jpg"]
+    },
+    {
+      "id": "L12", "name": "黑底 / 界面格", "panels": "1 (或局部嵌入)", "row_struct": "黑底格 / UI格", "pages_count": 27, "tilt_rate": 0.05,
+      "when": "电话画外音、内心独白、完现术读条界面、话末卡",
+      "slots": [
+        {"slot": "整格或嵌入格", "tags": "T14 纯黑底白字台词 / T15 游戏屏幕或符号"}
+      ],
+      "examples": ["c430/p018.jpg", "c447/p011.jpg"]
+    },
+    {
+      "id": "L13", "name": "斜切 / 倾斜分格（几何变形层）", "panels": "2-6", "row_struct": "任意骨架统转 4-10°", "pages_count": 414, "tilt_rate": 1.0,
+      "when": "战斗（88% 倾斜）、受击爆发（81% 倾斜）、失衡冲击（占全库 38.5% 页面）",
+      "slots": [
+        {"slot": "斜切大格", "tags": "T10 动作 / T11 冲击线（斜线方向 = 刀路/受力方向）"},
+        {"slot": "斜切楔形小格", "tags": "T7 睁大的单眼 / T13 咬牙冒汗 / T6 怒吼特写"}
+      ],
+      "examples": ["c443/p003.jpg", "c443/p015.jpg", "c467/p008.jpg"]
+    },
+    {
+      "id": "L14", "name": "【新增】三段五格 1-2-2 / 2-1-2 / 2-2-1", "panels": 5, "row_struct": "1-2-2 (58页) / 2-1-2 (41页) / 2-2-1 (16页)", "pages_count": 115, "tilt_rate": 0.49,
+      "when": "全书使用率第一的黄金版式：日常对话、对峙、攻防转换（1 个定调大格 + 2 组双格反打）",
+      "slots": [
+        {"slot": "[1-2-2] P1(上大格)", "tags": "T6 特写(19%) / T3 双人(16%) / T1 建立(16%)"},
+        {"slot": "[1-2-2] P2-P3(中双)", "tags": "T4 说话(21-29%) + T3/T6/T7 反打"},
+        {"slot": "[1-2-2] P4-P5(下双)", "tags": "P4: T6 面部特写(40%) | P5: T7 眼/手局部(28%) 或 T6(24%)"},
+        {"slot": "[2-1-2] P3(中大格)", "tags": "T3 双人同框主格(32%) / T10 动作(12%)，上下各配一组 T4+T7/T6"}
+      ],
+      "examples": ["c427/p010.jpg", "c428/p019.jpg", "c425/p006.jpg", "c427/p007.jpg", "c427/p013.jpg"]
+    },
+    {
+      "id": "L15", "name": "【新增】不对称三段四格 1-1-2 / 2-1-1", "panels": 4, "row_struct": "1-1-2 (65页) / 2-1-1 (34页)", "pages_count": 99, "tilt_rate": 0.36,
+      "when": "4 格第一高频版式（远多于 L8）：情报解释、战斗衔接、带底部特写落点的问答",
+      "slots": [
+        {"slot": "[1-1-2] P1-P2(上中宽格)", "tags": "P1: T3/T4/T9 建立 → P2: T6 特写 / T3 双人"},
+        {"slot": "[1-1-2] P3-P4(下双格)", "tags": "P3: T7 眼/手局部(25%) → P4: T5 听者(15%) / T3 双人(14%)"},
+        {"slot": "[2-1-1] P1-P4", "tags": "上双(T4+T5) → 中宽(T6/T7) → 底大格(T6 面部大特写 44%)"}
+      ],
+      "examples": ["c425/p012.jpg", "c427/p006.jpg", "c425/p007.jpg", "c427/p014.jpg"]
+    },
+    {
+      "id": "L16", "name": "【新增】不对称六格/多格 1-2-3 / 2-1-3 / 群像竖列", "panels": "6-8", "row_struct": "1-2-3 (26页) / 2-1-3 (21页) / 7-8格 (64页)", "pages_count": 111, "tilt_rate": 0.44,
+      "when": "队长群像登场、多人同时震惊、高速连击拆解、闪回蒙太奇（比工整 2-2-2 常见 4 倍）",
+      "slots": [
+        {"slot": "宽格槽(1格带)", "tags": "T3 双人 / T1 建立 / T10 主动作"},
+        {"slot": "双格槽(2格带)", "tags": "T4 说话 + T5/T6 反应"},
+        {"slot": "三/四竖格槽(3-4格带)", "tags": "并排连续 T7(眼/手 31%) + T6(多张特写脸 31%) + T4(短句 24%)"}
+      ],
+      "examples": ["c429/p012.jpg", "c430/p015.jpg", "c428/p005.jpg"]
+    },
+    {
+      "id": "L17", "name": "【新增】五格条带/三竖复合 1-1-3 / 1-3-1 / 1-2-1-1", "panels": 5, "row_struct": "1-1-3 (31页) / 1-2-1-1 (21页) / 2-1-1-1 (20页) / 1-3-1 (17页)", "pages_count": 101, "tilt_rate": 0.35,
+      "when": "在三段式里切一层三竖格，或在四格页顶/底插入一条 L11 眼部/黑底窄条",
+      "slots": [
+        {"slot": "[1-1-3] P1-P5", "tags": "P1(T6/T7) → P2(T3/T4) → P3-P5底三竖格(T7 42% → T6 29% → T4 35%)"},
+        {"slot": "[1-2-1-1] P1-P5", "tags": "L8 三明治 + P5 底窄条(T7 局部 29% / T14 黑底条 14% / T8 物件 14%)"}
+      ],
+      "examples": ["c434/p001.jpg", "c437/p016.jpg", "c429/p017.jpg", "c430/p016.jpg"]
+    },
+    {
+      "id": "L18", "name": "【新增】三竖列复合 1-3 / 3-1", "panels": 4, "row_struct": "1-3 (35页) / 3-1-1 (10页)", "pages_count": 45, "tilt_rate": 0.63,
+      "when": "大场面后紧跟高速动作三连拍（跳下/逼近/挥刀），或三人同时反应",
+      "slots": [
+        {"slot": "P1(上大格 45-55%)", "tags": "T1 建立(20%) / T10 动作(17%) / T3 双人(17%) / T11 冲击(11%)"},
+        {"slot": "P2-P4(下三竖格)", "tags": "动作分解: T10→T10→T13 | 表情逼视: T7(眼)→T6(特写)→T6/T13(反应)"}
+      ],
+      "examples": ["c425/p010.jpg", "c427/p012.jpg", "c433/p010.jpg"]
+    }
+  ],
+  "tags": [
+    {"id": "T1", "name": "建立/场景", "count": 150, "share": "3.5%", "area_p25_med_p75": "15%-23%-36%", "aspect_p25_med_p75": "0.99-1.30-1.93", "y_top_mid_bot": "37%/36%/27%", "avg_bubbles": 1.0, "unframed_rate": "2.7%", "asset_tags": "背景/场景"},
+    {"id": "T2", "name": "远景全身", "count": 308, "share": "7.2%", "area_p25_med_p75": "11%-20%-36%", "aspect_p25_med_p75": "0.71-1.05-1.43", "y_top_mid_bot": "31%/37%/31%", "avg_bubbles": 1.1, "unframed_rate": "7.5%", "asset_tags": "全身/远景/两人"},
+    {"id": "T3", "name": "中景双人", "count": 401, "share": "9.4%", "area_p25_med_p75": "13%-18%-25%", "aspect_p25_med_p75": "1.06-1.39-1.91", "y_top_mid_bot": "32%/37%/30%", "avg_bubbles": 1.9, "unframed_rate": "3.5%", "asset_tags": "两人/对视"},
+    {"id": "T4", "name": "中景单人(说)", "count": 514, "share": "12.0%", "area_p25_med_p75": "10%-13%-20%", "aspect_p25_med_p75": "0.86-1.17-1.54", "y_top_mid_bot": "29%/34%/38%", "avg_bubbles": 1.8, "unframed_rate": "2.1%", "asset_tags": "对话/说话/侧脸"},
+    {"id": "T5", "name": "近景胸像(听)", "count": 229, "share": "5.4%", "area_p25_med_p75": "8%-10%-16%", "aspect_p25_med_p75": "0.76-1.14-1.64", "y_top_mid_bot": "30%/37%/33%", "avg_bubbles": 1.0, "unframed_rate": "4.4%", "asset_tags": "近景/半脸/沉默"},
+    {"id": "T6", "name": "面部特写", "count": 823, "share": "19.2%", "area_p25_med_p75": "8%-14%-24%", "aspect_p25_med_p75": "0.76-1.20-1.81", "y_top_mid_bot": "27%/30%/43%", "avg_bubbles": 1.2, "unframed_rate": "4.0%", "asset_tags": "大眼/正面/喊"},
+    {"id": "T7", "name": "眼部/局部", "count": 668, "share": "15.6%", "area_p25_med_p75": "6%-9%-14%", "aspect_p25_med_p75": "0.64-1.35-2.82", "y_top_mid_bot": "24%/28%/49%", "avg_bubbles": 0.7, "unframed_rate": "1.8%", "asset_tags": "局部/眼/手"},
+    {"id": "T8", "name": "物件/静物", "count": 196, "share": "4.6%", "area_p25_med_p75": "8%-14%-21%", "aspect_p25_med_p75": "0.74-1.40-2.41", "y_top_mid_bot": "32%/29%/40%", "avg_bubbles": 0.6, "unframed_rate": "7.7%", "asset_tags": "局部/小图"},
+    {"id": "T9", "name": "空镜", "count": 139, "share": "3.3%", "area_p25_med_p75": "9%-14%-21%", "aspect_p25_med_p75": "1.05-1.91-2.99", "y_top_mid_bot": "37%/22%/41%", "avg_bubbles": 0.9, "unframed_rate": "5.8%", "asset_tags": "背景/无人"},
+    {"id": "T10", "name": "动作", "count": 264, "share": "6.2%", "area_p25_med_p75": "17%-28%-42%", "aspect_p25_med_p75": "0.91-1.19-1.47", "y_top_mid_bot": "38%/27%/34%", "avg_bubbles": 0.5, "unframed_rate": "9.5%", "asset_tags": "动作/喊"},
+    {"id": "T11", "name": "冲击/效果", "count": 147, "share": "3.4%", "area_p25_med_p75": "14%-23%-44%", "aspect_p25_med_p75": "0.88-1.38-2.42", "y_top_mid_bot": "32%/30%/38%", "avg_bubbles": 0.2, "unframed_rate": "15.0%", "asset_tags": "线条/效果"},
+    {"id": "T12", "name": "背影/剪影", "count": 128, "share": "3.0%", "area_p25_med_p75": "8%-12%-19%", "aspect_p25_med_p75": "0.79-1.33-1.79", "y_top_mid_bot": "29%/36%/35%", "avg_bubbles": 1.2, "unframed_rate": "3.9%", "asset_tags": "背影/沉默"},
+    {"id": "T13", "name": "反应(惊愕)", "count": 124, "share": "2.9%", "area_p25_med_p75": "10%-15%-23%", "aspect_p25_med_p75": "0.81-1.24-2.06", "y_top_mid_bot": "21%/25%/54%", "avg_bubbles": 1.3, "unframed_rate": "4.8%", "asset_tags": "惊讶/注视"},
+    {"id": "T14", "name": "台词/旁白格", "count": 134, "share": "3.1%", "area_p25_med_p75": "4%-13%-19%", "aspect_p25_med_p75": "0.98-1.58-2.95", "y_top_mid_bot": "19%/37%/45%", "avg_bubbles": 0.5, "unframed_rate": "20.9%", "asset_tags": "文字格"},
+    {"id": "T15", "name": "界面/符号", "count": 51, "share": "1.2%", "area_p25_med_p75": "10%-18%-26%", "aspect_p25_med_p75": "0.81-2.16-3.30", "y_top_mid_bot": "31%/37%/31%", "avg_bubbles": 0.4, "unframed_rate": "9.8%", "asset_tags": "文字格/拟声"}
+  ]
+}
